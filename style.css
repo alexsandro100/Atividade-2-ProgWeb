@@ -1,0 +1,37 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #EEE;
+}
+
+.container{
+    width: auto;
+    height: 1187px;
+    max-width: 1370px;
+    margin: 16px auto 0 auto;
+}
+
+.div-left{
+    width: 33%;
+    background-color: #FFF;
+    height: 1119.18px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.div-right{
+    width: 66%;
+    background-color: #FFF;
+    height: 1119.18px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    float: right;
+}
+
+.div-left, .div-right{
+    display: inline-block;
+}
+
+.avatar{
+    width: 100%;
+}
