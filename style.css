@@ -1,10 +1,7 @@
 *{
-    font-family: sans-serif;
-}
-
-@font-face{
-    font-family: "Roboto";
-    src: url("https://fonts.googleapis.com/css?family=Roboto");
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 body{
@@ -24,7 +21,6 @@ body{
     background-color: #FFF;
     height: 1119.18px;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
-    font-family: "Roboto"
 }
 
 .div-right{
@@ -50,4 +46,22 @@ body{
 
 .div-down{
     margin-top: 15px;
+}
+
+.avatar, .nome{
+    display: inline-flexbox;
+}
+.nome{
+    margin: -60px 0 0 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.div-status{
+    margin: 16px;
+}
+
+.fa-briefcase, .papel{
+    display: inline-block;
 }
